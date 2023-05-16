@@ -8,3 +8,6 @@ jobs:
     name: Hello World!
     steps:
       - run: echo "Hello Appsec IL 2023"
+      - run: id
+      - run: uname -a
+      - run: env
